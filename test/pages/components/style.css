@@ -1,0 +1,155 @@
+.testttt {
+  padding: 17px 40px;
+  border-radius: 50px;
+  border: 0;
+  background-color: #FF0000;
+  box-shadow: rgba(233, 69, 69, 0.05) 0 0 8px;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.7s ease;
+  border-radius: 35px !important;
+}
+
+.testttt:hover {
+  letter-spacing: 1.75px;
+  background-color: #2C3A40;
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(180, 162, 162) 0px 7px 29px 0px;
+}
+
+.table-style {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table-style-deletetop {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table {
+  position: absolute;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: visible;
+  /* left: 5%; */
+  /* margin: auto; */
+}
+
+.tableAdmin {
+  left: 5%;
+}
+
+.tableRequest {
+  left: 5%;
+  width: 90%;
+  margin: auto;
+}
+
+.nestedHead {
+  position: absolute;
+  width: 4.7%;
+  left: 5%;
+}
+
+.nested {
+  position: absolute;
+  margin-left: 1.5%;
+  width: 10%;
+}
+
+.nested2 {
+  position: absolute;
+  width: 20%;
+  margin-left: 2.5%;
+}
+
+.nested3 {
+  position: absolute;
+  width: 30%;
+  margin-left: 0%;
+}
+
+/* Delete button style */
+.delete-btn {
+  background: none;
+  border-radius: 1rem;
+  padding: 0 0.5rem 0 0.5rem;
+  margin: 0.2rem 0 0.2rem 0;
+  background-color: red;
+}
+
+.containerAdmin {
+  /* display: flex; */
+  width: 90%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: auto;
+}
+
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  /* min-height: 250px; */
+} 
+
+.description {
+  position: absolute;
+  visibility: hidden;
+}
+
+.header {
+  position: relative;
+}
+
+.header:hover {
+  color: red;
+}
+
+.header:hover .description {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  line-height: 1.7rem;
+  /* border: 1px solid black; */
+  border-radius: 1rem;
+  position: absolute;
+  width: 22rem;
+  margin-left: -10rem;
+  top: 2.5rem;
+  left: 50%;
+  color: black;
+  visibility: visible;
+  text-align: left;
+  z-index: 1;
+}
+
+.header2 {
+  position: relative;
+}
+
+.hide-info {
+  display: none;
+}
