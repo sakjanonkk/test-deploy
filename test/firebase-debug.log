@@ -1,0 +1,56 @@
+[debug] [2023-04-09T07:21:00.437Z] ----------------------------------------------------------------------
+[debug] [2023-04-09T07:21:00.439Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-04-09T07:21:00.440Z] CLI Version:   11.25.3
+[debug] [2023-04-09T07:21:00.440Z] Platform:      win32
+[debug] [2023-04-09T07:21:00.440Z] Node Version:  v19.8.1
+[debug] [2023-04-09T07:21:00.440Z] Time:          Sun Apr 09 2023 14:21:00 GMT+0700 (เวลาอินโดจีน)
+[debug] [2023-04-09T07:21:00.440Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-09T07:21:00.509Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-09T07:21:00.509Z] > authorizing via signed-in user (sakjanon.k@kkumail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ASUS\Desktop\mFolder\myJect\test
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-09T07:21:15.438Z] Using project from CLI flag: library-test-e53be
+[debug] [2023-04-09T07:21:15.439Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/library-test-e53be [none]
+[debug] [2023-04-09T07:21:16.061Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/library-test-e53be 200
+[debug] [2023-04-09T07:21:16.061Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/library-test-e53be {"projectId":"library-test-e53be","projectNumber":"58465534832","displayName":"library-test","name":"projects/library-test-e53be","resources":{"hostingSite":"library-test-e53be"},"state":"ACTIVE","etag":"1_dc4e30c5-f1b5-4402-9d22-c917e1a0a9ac"}
+[info] i  Using project library-test-e53be (library-test) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-04-09T07:21:29.213Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-04-09T07:21:29.342Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-04-09T07:21:29.342Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.19.1","browserURL":"https://www.gstatic.com/firebasejs/9.19.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.19.1/firebase.tgz"},"live":{"version":"9.19","browserURL":"https://www.gstatic.com/firebasejs/live/9.19/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.19/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.19.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.19.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.19.1/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.19.1/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.19.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.19.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.19.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.19.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.19.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.19.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.19.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.19.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.19.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.19.1/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\ASUS\Desktop\mFolder\myJect 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=975282767&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
