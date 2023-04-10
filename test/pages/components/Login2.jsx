@@ -141,7 +141,7 @@ const Login2 = () => {
         <>
           <Navbar />
           <Main />
-          {/* <UserTable /> */}
+          <UserTable />
           <Booking />
           <Request />
           <Mapping />

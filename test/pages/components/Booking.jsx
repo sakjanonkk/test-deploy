@@ -297,7 +297,7 @@ const Booking = () => {
   // =============================================================
 
   return (
-    <div className="w-full lg:h-screen dark:bg-[#282a36] uppercase">
+    <div className="w-full h-full lg:h-screen dark:bg-[#282a36] uppercase">
       <div id="book" className="max-w-[90%] m-auto px-2 py-60 w-full">
         <p className="text-xl tracking-widest uppercase text-[red]"></p>
         <h2 className=" tracking-wide py-4 text-center dark:text-[white]">
